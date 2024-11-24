@@ -10,15 +10,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 @font-face {
-  font-family: 'vazirmatn';
-  src: url('assets/fonts/vazir/ttf/Vazirmatn-Thin.ttf') format('ttf'),
-       url('assets/fonts/vazir/webfonts/Vazirmatn-Thin.woff2') format('woff2 supports variations'),
-       url('assets/fonts/vazir/webfonts/Vazirmatn-Thin.woff2') format('woff2-variations');
-       
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
+  font-family: Parastoo;
+  src: url('assets/fonts/parastoo/Parastoo-Bold.eot');
+  src: url('assets/fonts/parastoo/Parastoo-Bold.eot?#iefix') format('embedded-opentype'),
+       url('assets/fonts/parastoo/Parastoo-Bold.woff') format('woff'),
+       url('assets/fonts/parastoo/Parastoo-Bold.ttf') format('truetype');
+  font-weight: bold;
 }
+@font-face {
+  font-family: Sahel;
+  src: url('assets/fonts/sahel/Parastoo-Bold.eot');
+  src: url('assets/fonts/sahel/Parastoo-Bold.eot?#iefix') format('embedded-opentype'),
+       url('assets/fonts/sahel/Parastoo-Bold.woff') format('woff'),
+       url('assets/fonts/sahel/Parastoo-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
 /* ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
 */
 /*
@@ -52,7 +59,7 @@ html {
   -moz-tab-size: 4; /* 3 */
   -o-tab-size: 4;
      tab-size: 4; /* 3 */
-  font-family: vazirmatn, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-family: Parastoo, Sahel, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
   -webkit-font-feature-settings: normal;
           font-feature-settings: normal; /* 5 */
   font-variation-settings: normal; /* 6 */
