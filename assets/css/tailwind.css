@@ -6,23 +6,23 @@
    Created: March 2022
    File: Main Css File
 */
-//@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lexend:wght@300;400;500&display=swap");
-//@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lexend:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 @font-face {
   font-family: Parastoo;
-  src: url('assets/fonts/parastoo/Parastoo-Bold.eot');
-  src: url('assets/fonts/parastoo/Parastoo-Bold.eot?#iefix') format('embedded-opentype'),
-       url('assets/fonts/parastoo/Parastoo-Bold.woff') format('woff'),
-       url('assets/fonts/parastoo/Parastoo-Bold.ttf') format('truetype');
+  src: url('../fonts/parastoo/Parastoo-Bold.eot');
+  src: url('../fonts/parastoo/Parastoo-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/parastoo/Parastoo-Bold.woff') format('woff'),
+       url('../fonts/parastoo/Parastoo-Bold.ttf') format('truetype');
   font-weight: bold;
 }
 @font-face {
   font-family: Sahel;
-  src: url('assets/fonts/sahel/Parastoo-Bold.eot');
-  src: url('assets/fonts/sahel/Parastoo-Bold.eot?#iefix') format('embedded-opentype'),
-       url('assets/fonts/sahel/Parastoo-Bold.woff') format('woff'),
-       url('assets/fonts/sahel/Parastoo-Bold.ttf') format('truetype');
+  src: url('../fonts/sahel/Parastoo-Bold.eot');
+  src: url('../fonts/sahel/Parastoo-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/sahel/Parastoo-Bold.woff') format('woff'),
+       url('../fonts/sahel/Parastoo-Bold.ttf') format('truetype');
   font-weight: bold;
 }
 
