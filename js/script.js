@@ -54,7 +54,10 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin:'left' });
     
 // typed js
 const typed = new Typed('.multiple-text',{
-    strings: ['توسعه دهنده بک-اند','طراح گرافیک','طراح رزومه'],
+    strings: [
+     'طراح رزومه حرفه‌ای'
+     ,'طراح پست و ویدئوی اینستاگرام'
+     ,'طراح موشن گرافی'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
